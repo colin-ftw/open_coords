@@ -1,0 +1,8 @@
+name = "open_coords"
+type = "webpack"
+account_id = "86a23d741c87821746178bdf783d48cf"
+workers_dev = true
+usage_model = ''
+compatibility_flags = []
+site = {bucket = "./build",entry-point = "workers-site"}
+compatibility_date = "2021-10-11"
