@@ -69,7 +69,7 @@ class IndexView extends React.Component {
               <div className="w-container">
                 <a href="index.html" aria-current="page" className="w-inline-block w--current"><img src="images/OCLogo.png" loading="lazy" width={225} sizes="225px" srcSet="images/OCLogo-p-500.png 500w, images/OCLogo-p-800.png 800w, images/OCLogo-p-1080.png 1080w, images/OCLogo-p-1600.png 1600w, images/OCLogo-p-2000.png 2000w, images/OCLogo.png 2420w" alt className="af-class-image-7" /></a>
                 <nav role="navigation" className="w-nav-menu">
-                  <a href="coordinates2.html" className="w-nav-link">Coordinates</a>
+                  <a href="coordinates.html" className="w-nav-link">Coordinates</a>
                   <a href="about.html" className="w-nav-link">About</a>
                   <a href="#" className="w-nav-link">Twitter</a>
                   <a href="#" className="w-nav-link">Discord</a>

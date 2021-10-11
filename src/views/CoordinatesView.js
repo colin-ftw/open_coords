@@ -10,19 +10,19 @@ const scripts = [
 
 let Controller
 
-class Coordinates2View extends React.Component {
+class CoordinatesView extends React.Component {
   static get Controller() {
     if (Controller) return Controller
 
     try {
-      Controller = require('../controllers/Coordinates2Controller')
+      Controller = require('../controllers/CoordinatesController')
       Controller = Controller.default || Controller
 
       return Controller
     }
     catch (e) {
       if (e.code == 'MODULE_NOT_FOUND') {
-        Controller = Coordinates2View
+        Controller = CoordinatesView
 
         return Controller
       }
@@ -52,7 +52,7 @@ class Coordinates2View extends React.Component {
   }
 
   render() {
-    const proxies = Coordinates2View.Controller !== Coordinates2View ? transformProxies(this.props.children) : {
+    const proxies = CoordinatesView.Controller !== CoordinatesView ? transformProxies(this.props.children) : {
 
     }
 
@@ -91,6 +91,6 @@ class Coordinates2View extends React.Component {
   }
 }
 
-export default Coordinates2View
+export default CoordinatesView
 
 /* eslint-enable */
